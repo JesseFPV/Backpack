@@ -1,6 +1,8 @@
 #include "hdzero.h"
 #include "logging.h"
 #include <Arduino.h>
+#include <max7456.h>
+#include <SPI.h>
 
 HDZero::HDZero(Stream *port)
 {
